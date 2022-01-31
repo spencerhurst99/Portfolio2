@@ -6,7 +6,7 @@ img{
     margin-right: auto;
     width: 20%;
     border-radius: 8px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 0.35);
 }
 
 footer > a:link{
@@ -20,7 +20,7 @@ a:visited{
 color:black;
 }
 a:hover{
-color:white;
+color:red;
 }
 
 a{
@@ -37,12 +37,14 @@ header  {
 body {
     background-image: url("WhiteBackground.jpg");
     width: 100%;
+    height: auto;
 }
 body > main > p, ul {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: inline-block;
     margin-left: 50%;
     transform: translateX(-50%);
+    height: auto;
 
 }
 
@@ -59,6 +61,12 @@ body > main > p, ul {
 
     margin-left:100px;
     margin-right:100px;
+    text-align:center;
+    display: inline-block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    height: auto;
+
  
   }
 
@@ -79,4 +87,8 @@ body > main > p, ul {
 .partTwo{
     margin-left:100px;
     margin-right:100px;  
+    display: inline-block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+
 }
